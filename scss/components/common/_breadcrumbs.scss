@@ -1,0 +1,52 @@
+.breadcrumbs{
+	display: flex;
+	list-style: none;
+	flex-wrap: wrap;
+	width: 100%;
+
+	li{
+		font-size: 12px;
+		line-height: 24px;
+		letter-spacing: 0.05em;
+		display: flex;
+		align-items: center;
+		color: $text-color;
+		margin-right: 13px;
+
+		&:before{
+			content: "";
+			width: 5px;
+			height: 8px;
+			display: block;
+			margin-right: 5px;
+			background: url(../img/icons/breadcrumbs-arrow.png) no-repeat;
+		}
+
+		a{
+			color: $text-color;
+			text-decoration: underline;
+
+			&:hover{
+				color: $primary;
+			}
+		}
+
+		&:last-child{
+			margin-right: 0;
+
+			a{
+				text-decoration: none;
+				cursor: default;
+
+				&:hover{
+					color: $text-color;
+				}
+			}
+		}
+	}
+}
+
+.breadcrumbs-section{
+	padding: 20px 0;
+	margin-bottom: 25px;
+}

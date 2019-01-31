@@ -1,0 +1,21 @@
+.sidebar-nav{
+	li{
+		margin-bottom: 8px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		a{
+			font-size: 14px;
+			line-height: 20px;
+			color: $text-color;
+			text-decoration: none;
+
+			&:hover{
+				text-decoration: underline;
+				color: $accent;
+			}
+		}
+	}
+}

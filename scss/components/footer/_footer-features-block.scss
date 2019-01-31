@@ -1,0 +1,18 @@
+.footer-features-block{
+	display: flex;
+	align-items: center;
+
+	.block-icon{
+		flex: none;
+		margin-right: 15px;
+		width: 40px;
+	}
+
+	.block-text{
+		p{
+			font-size: 14px;
+			line-height: 22px;
+			letter-spacing: 0;
+		}
+	}
+}

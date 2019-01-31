@@ -1,0 +1,11 @@
+.sidebar-menu{
+	padding: 20px 0;
+
+	.menu-item{
+		border-bottom: 1px solid #ddd;
+
+		&:last-child{
+			border-bottom: 0;
+		}
+	}
+}

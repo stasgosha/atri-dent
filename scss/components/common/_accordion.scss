@@ -1,0 +1,82 @@
+.accordion{
+	.accordion-header{
+		display: flex;
+		width: 100%;
+		padding: 13px 20px;
+		font-size: 14px;
+		line-height: 18px;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $text-dark;
+		align-items: center;
+		justify-content: space-between;
+		cursor: pointer;
+	}
+
+	.accordion-content{
+		padding: 0 20px 20px 20px;
+		display: none;
+	}
+
+	.accordion-opener{
+		width: 19px;
+		height: 19px;
+		border-radius: 50%;
+		border: 1px solid transparent;
+		position: relative;
+		transition: all $t;
+
+		&:hover{
+			border-color: #ddd;
+		}
+
+		&:after,
+		&:before{
+			content: '';
+			display: block;
+			width: 6px;
+			height: 2px;
+			border-radius: 1px;
+			background: #ddd;
+			position: absolute;
+			left: calc(50% - 1.5px);
+			top: calc(50% - 1px);
+			transform-origin: 50% 50%;
+			transition: all $t;
+		}
+
+		&:before{
+			transform: rotate(45deg);
+			margin-left: -3px;
+		}
+
+		&:after{
+			transform: rotate(-45deg);
+			margin-right: -3px;
+		}
+	}
+
+	&.opened{
+		.accordion-header{
+			color: $accent;
+		}
+
+		.accordion-opener{
+			border-color: #ddd;
+
+			&:after,
+			&:before{
+				background: $accent;
+				top: calc(50% - 2px);
+			}
+
+			&:before{
+				transform: rotate(-45deg);
+			}
+
+			&:after{
+				transform: rotate(45deg);
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+.features-card{
+	display: flex;
+	padding: 25px;
+
+	.card-icon{
+		width: 60px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-right: 15px;
+		flex: none;
+	}
+
+	.card-content{
+		.card-title{
+			font-size: 14px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: $text-dark;
+			margin-bottom: 4px;
+		}
+
+		p:not(.card-title){
+			color: $text-light;
+			font-size: 14px;
+		}
+	}
+}

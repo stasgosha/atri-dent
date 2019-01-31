@@ -1,0 +1,31 @@
+.info-list{
+	display: flex;
+	align-items: center;
+
+	li{
+		margin-right: 50px;
+		display: flex;
+		align-items: flex-start;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		.item-icon{
+			width: 32px;
+			height: 32px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid #e6e6e6;
+			border-radius: 50%;
+			margin-right: 15px;
+			flex: none;
+		}
+
+		.item-content{
+			font-size: 14px;
+			line-height: 16px;
+		}
+	}
+}

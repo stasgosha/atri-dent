@@ -1,0 +1,58 @@
+.contacts-list{
+	margin-bottom: 15px;
+
+	li{
+		padding: 15px 0;
+		position: relative;
+		font-size: 14px;
+		line-height: 24px;
+
+		strong{
+			font-weight: bold;
+			color: $text-dark;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+		}
+
+		a{
+			text-decoration: none;
+			color: $text-color;
+
+			&:hover{
+				color: $primary;
+			}
+
+			&.route-link{
+				text-decoration: underline;
+				color: $accent;
+
+				&:hover{
+					color: $primary;
+				}
+			}
+		}
+
+		&:after{
+			content: '';
+			display: block;
+			width: 100%;
+			height: 0;
+			border-bottom: 1px dashed #ddd;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+
+		&:first-child{
+			padding-top: 0;
+		}
+
+		&:last-child{
+			padding-bottom: 0;
+
+			&:after{
+				display: none;
+			}
+		}
+	}
+}

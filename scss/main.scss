@@ -1,0 +1,49 @@
+@import "components/fonts";
+@import "components/vars";
+@import "components/layout";
+@import "components/typography";
+@import "components/assist";
+@import "icons";
+
+// Header
+@import "components/header/header";
+@import "components/header/logo";
+@import "components/header/header-phone-component";
+@import "components/header/top-nav";
+@import "components/header/menu-opener";
+
+// Sections
+@import "components/sections/sections";
+
+// Footer
+@import "components/footer/footer";
+@import "components/footer/footer-nav";
+@import "components/footer/footer-contacts";
+@import "components/footer/footer-features-block";
+
+// Common
+@import "components/common/buttons";
+@import "components/common/forms";
+@import "components/common/panel";
+@import "components/common/info-list";
+@import "components/common/proposal-block";
+@import "components/common/advantages-list";
+@import "components/common/services-card";
+@import "components/common/installment-services-block";
+@import "components/common/features-card";
+@import "components/common/person-card";
+@import "components/common/appointment-features";
+@import "components/common/sliders";
+@import "components/common/review-card";
+@import "components/common/rating";
+@import "components/common/contacts-list";
+@import "components/common/socials-list";
+@import "components/common/breadcrumbs";
+@import "components/common/sidebar-menu";
+@import "components/common/sidebar-nav";
+@import "components/common/accordion";
+@import "components/common/prices-info-line";
+@import "components/common/price-tabs";
+@import "components/common/tables";
+@import "components/common/answer-block";
+@import "components/common/pagination";

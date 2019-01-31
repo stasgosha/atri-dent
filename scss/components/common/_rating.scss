@@ -1,0 +1,15 @@
+.rating{
+	display: flex;
+	align-items: center;
+
+	.star{
+		margin-right: 1px;
+		background: url(../img/icons/star.png) no-repeat center;
+		width: 22px;
+		height: 20px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+}

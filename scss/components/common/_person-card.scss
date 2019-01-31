@@ -1,0 +1,28 @@
+.person-card{
+	padding: 20px;
+
+	.card-photo{
+		margin-bottom: 20px;
+
+		img{
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.card-content{
+		.card-title{
+			font-size: 14px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: $text-dark;
+			margin-bottom: 4px;
+		}
+
+		p:not(.card-title){
+			color: $text-light;
+			font-size: 14px;
+		}
+	}
+}

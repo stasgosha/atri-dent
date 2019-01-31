@@ -1,0 +1,32 @@
+.price-tabs-list{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 18px;
+
+	li{
+		margin-right: 7px;
+		margin-bottom: 12px;
+		padding: 0 30px;
+		border-radius: 15px;
+		background: #fff;
+		box-shadow: $shadow;
+		font-size: 14px;
+		line-height: 28px;
+		white-space: nowrap;
+		transition: all $t;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-weight: bold;
+		border: 1px solid transparent;
+
+		&.current{
+			background: $primary;
+			border-color: $primary;
+			color: #fff;
+		}
+
+		&:hover{
+			border-color: $primary;
+		}
+	}
+}

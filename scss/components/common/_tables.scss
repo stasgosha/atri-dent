@@ -1,0 +1,28 @@
+.table{
+	border-spacing: 0;
+	border-collapse: separate;
+	width: 100%;
+
+	th{
+		padding: 14px 35px;
+		font-size: 13px;
+		line-height: 20px;
+		color: #fff;
+		text-align: left;
+		background: $primary;
+		font-weight: bold;
+
+		&.col-code{
+			width: 110px;
+		}
+
+		&.col-price{
+			width: 180px;
+		}
+	}
+
+	td{
+		padding: 14px 35px;
+		border-bottom: 1px solid #ddd;
+	}
+}

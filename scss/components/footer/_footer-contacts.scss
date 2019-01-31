@@ -1,0 +1,36 @@
+.footer-contacts{
+	.phone-link{
+		font-size: 18px;
+		line-height: 1;
+		font-weight: bold;
+		text-decoration: none;
+		color: $text-dark;
+		transition: all $t;
+		margin-bottom: 10px;
+		display: inline-flex;
+
+		&:hover{
+			color: $primary;
+		}
+	}
+
+	p{
+		font-size: 14px;
+		line-height: 22px;
+		letter-spacing: -0.02em;
+		margin-bottom: 8px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		a{
+			color: $text-color;
+			text-decoration: underline;
+
+			&:hover{
+				color: $primary;
+			}
+		}
+	}
+}

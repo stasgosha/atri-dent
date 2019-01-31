@@ -1,0 +1,113 @@
+.pagination-wrap{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.wp-pagenavi{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+
+	.inner-wrapper{
+		.inner{
+			display: flex;
+			align-items: center;
+		}
+	}
+
+	span,
+	a{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 46px;
+		height: 46px;
+		font-size: 14px;
+		line-height: 24px;
+		margin-right: 10px;
+		flex: none;
+		text-decoration: none;
+		color: $text-dark;
+		font-weight: bold;
+		transition: all $t;
+		border: 1px solid transparent;
+		border-radius: 50%;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		&:hover{
+			border-color: $primary;
+			background: #fff;
+		}
+
+		&.current{
+			background: $primary;
+			border-color: $primary;
+			cursor: default;
+			color: #fff;
+			box-shadow: $shadow;
+		}
+	}
+
+	span{
+		cursor: default;
+		margin-right: 10px;
+
+		&:hover{
+			color: #fff;
+		}
+
+		&.extend{
+			background: transparent;
+
+			&:hover{
+				color: $text-dark;
+			}
+		}
+	}
+
+	.nextpostslink,
+	.previouspostslink{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 46px;
+		height: 46px;
+		font-size: 14px;
+		line-height: 24px;
+		margin-right: 10px;
+		flex: none;
+		text-decoration: none;
+		color: $text-dark;
+		font-weight: bold;
+		transition: all $t;
+		border: 1px solid #ddd;
+		border-radius: 50%;
+		color: $primary;
+
+		&:hover{
+			background: $primary;
+			border-color: $primary;
+			background: #fff;
+			color: $primary;
+		}
+
+		&:before{
+			content: '';
+			display: block;
+			width: 6px;
+			height: 10px;
+			background: url(../img/icons/pagination-arrows.png) no-repeat left center;
+		}
+	}
+
+	.nextpostslink{
+		&:before{
+			background-position: right center;
+		}
+	}
+}

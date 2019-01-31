@@ -1,0 +1,55 @@
+.footer-nav{
+	> li{
+		margin-bottom: 10px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+
+		> a{
+			font-size: 14px;
+			line-height: 22px;
+			color: $text-dark;
+			text-transform: uppercase;
+			font-weight: bold;
+
+			&:hover{
+				color: $primary;
+			}
+		}
+
+		&.current-menu-item{
+			> a{
+				color: $primary;
+			}
+		}
+
+		.sub-menu{
+			margin-top: 15px;
+
+			> li{
+				font-size: 16px;
+				line-height: 30px;
+
+				&:before{
+					content: '•  ';
+				}
+
+				> a{
+					text-decoration: none;
+					color: $text-color;
+
+					&:hover{
+						text-decoration: underline;
+					}
+				}
+
+				&.current-menu-item{
+					a{
+						color: $text-dark;
+					}
+				}
+			}
+		}
+	}
+}
