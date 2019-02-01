@@ -34,7 +34,7 @@
 		<section class="service-description-section">
 			<div class="container">
 				<div class="section-inner">
-					<div class="section-sidebar">
+					<div class="section-sidebar d-none d-md-block">
 						<div class="sidebar-menu white-card">
 							<div class="menu-item">
 								<div class="accordion">
@@ -357,6 +357,135 @@
 										</div>
 										<div class="item-content">Бесплатный <br>проф.осмотр каждые 6 месяцев</div>
 									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section-default-bottom-padding d-md-none">
+			<div class="container">
+				<div class="sidebar-menu white-card">
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Ортодонтия</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header open-on-load" data-group="sidebar-menu">
+								<span class="accordion-caption">Терапия</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Детская стоматология</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Имплантология</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Ортопедия</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">хирургия</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Профилактика и гигиена</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Отбеливание зубов</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
 								</ul>
 							</div>
 						</div>

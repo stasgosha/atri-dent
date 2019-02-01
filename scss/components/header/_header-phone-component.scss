@@ -7,9 +7,28 @@
 		margin-bottom: 9px;
 	}
 
+	.left{
+		margin-right: 30px;
+
+		.cta-text{
+			padding-left: calc(32px + 15px);
+			font-weight: bold;
+			color: $primary;
+		}
+	}
+
+	.right{
+		p{
+			text-align: center;
+		}
+	}
+}
+
+.header{
 	.phone-link{
 		align-items: center;
 		display: flex;
+		white-space: nowrap;
 
 		.link-icon{
 			width: 32px;
@@ -36,22 +55,6 @@
 			.link-text{
 				color: $primary;
 			}
-		}
-	}
-
-	.left{
-		margin-right: 30px;
-
-		.cta-text{
-			padding-left: calc(32px + 15px);
-			font-weight: bold;
-			color: $primary;
-		}
-	}
-
-	.right{
-		p{
-			text-align: center;
 		}
 	}
 }

@@ -1,7 +1,7 @@
 <?php $page_title = 'Задать вопрос'; ?>
 <?php include('header.php'); ?>
 	<div class="page-content">
-		<section class="advantages-section">
+		<section class="advantages-section d-none d-md-block">
 			<div class="container">
 				<ul class="advantages-list no-bg">
 					<li>
@@ -52,7 +52,7 @@
 		<section class="service-description-section">
 			<div class="container">
 				<div class="section-inner">
-					<div class="section-sidebar">
+					<div class="section-sidebar d-none d-md-block">
 						<div class="sidebar-menu white-card">
 							<div class="menu-item">
 								<div class="accordion">
@@ -265,6 +265,165 @@
 								<a class="page larger" title="Page 6" href="#">6</a>
 								<a class="page larger" title="Page 7" href="#">7</a>
 								<a class="nextpostslink" rel="next" href="#"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="advantages-section d-md-none">
+			<div class="container">
+				<ul class="advantages-list no-bg">
+					<li>
+						<div class="item-icon">
+							<i class="icon-diamond-green"></i>
+						</div>
+						<div class="item-content">Гарантия на все услуги</div>
+					</li>
+					<li>
+						<div class="item-icon">
+							<i class="icon-discount-green"></i>
+						</div>
+						<div class="item-content">5% скидка при первом посещении</div>
+					</li>
+					<li>
+						<div class="item-icon">
+							<i class="icon-team-green"></i>
+						</div>
+						<div class="item-content">Опытная команда профессионалов</div>
+					</li>
+					<li>
+						<div class="item-icon">
+							<i class="icon-equipment-green"></i>
+						</div>
+						<div class="item-content">Лучшее современное оборудование</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="section-default-paddings d-md-none">
+			<div class="container">
+				<div class="sidebar-menu white-card">
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Ортодонтия</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header open-on-load" data-group="sidebar-menu">
+								<span class="accordion-caption">Терапия</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Детская стоматология</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Имплантология</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Ортопедия</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">хирургия</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Профилактика и гигиена</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="menu-item">
+						<div class="accordion">
+							<div class="accordion-header" data-group="sidebar-menu">
+								<span class="accordion-caption">Отбеливание зубов</span>
+								<div class="accordion-opener"></div>
+							</div>
+							<div class="accordion-content">
+								<ul class="sidebar-nav">
+									<li><a href="#">Лечение зубов</a></li>
+									<li><a href="#">Лечение каналов</a></li>
+									<li><a href="#">Пломбирование</a></li>
+								</ul>
 							</div>
 						</div>
 					</div>
