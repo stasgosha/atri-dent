@@ -72,8 +72,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="header-inner">
-						<div class="header-block d-md-none mobile-contacts">
+					<div class="header-inner d-md-none">
+						<div class="header-block mobile-contacts">
 							<div class="item">
 								<a href="tel:84957097810" class="phone-link">
 									<span class="link-icon">
