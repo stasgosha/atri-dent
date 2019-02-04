@@ -41,7 +41,7 @@
 		<section class="services-section section-default-paddings">
 			<div class="container">
 				<h3 class="tpg-h2">Как мы можем помочь?</h3>
-				<div class="cards-list columns-4 services-slider slider-default-paddings slider-dark-arrows">
+				<div class="cards-list columns-4 small-margins services-slider slider-default-paddings slider-dark-arrows">
 					<div class="item slide">
 						<a href="#" class="services-card white-card">
 							<div class="card-icon">

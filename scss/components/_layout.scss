@@ -181,6 +181,14 @@ a img{
 		margin-bottom: 30px;
 	}
 
+	&.small-margins{
+		margin-bottom: -10px;
+
+		> .item{
+			margin-bottom: 10px;
+		}
+	}
+
 	&.columns-4{
 		> .item{
 			width: 25%;
